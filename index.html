@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Jason Meyer's Cyberpunk Portfolio</title>
+  <meta name="author" content="Jason Meyer (cyber8Jason)" />
+  <meta name="description" content="A cyberpunk-themed portfolio showcasing futuristic web and AI projects by Jason Meyer." />
+
+  <!-- Social Media Preview -->
+  <meta property="og:title" content="Jason Meyer's Cyberpunk Portfolio" />
+  <meta property="og:description" content="Check out my neon-lit world of code, synth, and tech." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cyber8Jason.github.io/portfolio/" />
+  <meta property="og:image" content="https://your-image-link.com/preview.png" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-3U2Az8IvLIlS9cK0E2Hw+vY5N2apZTg4EgwY93pKJnp4j0AFow7kAHTGNRNKfwNeGy+9hHi+5od8rk82RCXfqg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(180deg, #0f0f0f, #1a1a1a);
+      color: #00ffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #ff00cc;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    .about {
+      max-width: 800px;
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 3rem;
+    }
+    .about img {
+      max-width: 200px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #00ffff88;
+      animation: glow 3s ease-in-out infinite alternate;
+    }
+    @keyframes glow {
+      from { box-shadow: 0 0 10px #00ffff44; }
+      to { box-shadow: 0 0 25px #00ffffaa; }
+    }
+    .about-text {
+      max-width: 500px;
+      text-align: left;
+    }
+    .about-text h2 {
+      color: #ff00cc;
+    }
+    .about-text p {
+      color: #ccc;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      width: 100%;
+      max-width: 1000px;
+    }
+    .card {
+      background: #121212;
+      border: 1px solid #00ffff44;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      transition: transform 0.3s ease, border-color 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      border-color: #ff00cc;
+    }
+    .card h3 {
+      color: #00ffff;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .card p {
+      color: #ccc;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #ff00cc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jason Meyer's Cyberpunk Portfolio</h1>
+    <p>Exploring code in the neon-lit future 🚀</p>
+  </header>
+
+  <section class="about">
+    <img src="/mnt/data/A_pixel_art_digital_illustration_showcases_a_cyber.png" alt="cyberpunk avatar with laptop" />
+    <div class="about-text">
+      <h2>👤 About Me</h2>
+      <p>Hi, I'm Jason Meyer, aka <strong>cyber8Jason</strong>. I'm passionate about futuristic tech, synthwave aesthetics, and building tools that blend code with creativity. Whether it's AI-powered tools, pixel-perfect UIs, or hacking together wild ideas—this portfolio is where it all comes to life.</p>
+    </div>
+  </section>
+
+  <section class="projects">
+    <div class="card">
+      <h3><i class="fas fa-lightbulb"></i><a href="https://github.com/cyber8Jason/project1">Neon Notes</a></h3>
+      <p>A futuristic note-taking app with glowing UI and keyboard-driven workflow.</p>
+    </div>
+    <div class="card">
+      <h3><i class="fas fa-terminal"></i><a href="https://github.com/cyber8Jason/project2">PixelParser</a></h3>
+      <p>CLI tool that converts images into pixelart representations in terminal.</p>
+    </div>
+    <div class="card">
+      <h3><i class="fas fa-music"></i><a href="https://github.com/cyber8Jason/project3">SynthStream</a></h3>
+      <p>Web app for ambient synthwave streaming powered by AI playlists.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with ⚡️ by Jason Meyer (<a href="https://github.com/cyber8Jason">@cyber8Jason</a>)</p>
+  </footer>
+</body>
+</html>
